@@ -1,0 +1,511 @@
+
+第1条用例报错:
+19-11-18 00:54-ERROR-Invalid URL '': No schema supplied. Perhaps you meant http://?
+Traceback (most recent call last):
+  File ".\run_test.py", line 78, in go_on_run
+    res = self.run_method.run_main(method,url,data,header,params=data)
+  File "D:\PycharmProjects\WechatHelper-master\python3_interface-master\util\runmethod.py", line 25, in run_main
+    res = self.post_main(url,data,header)
+  File "D:\PycharmProjects\WechatHelper-master\python3_interface-master\util\runmethod.py", line 9, in post_main
+    res = requests.post(url=url,data=data,headers=header)
+  File "D:\Python37-32\lib\site-packages\requests\api.py", line 116, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "D:\Python37-32\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Python37-32\lib\site-packages\requests\sessions.py", line 519, in request
+    prep = self.prepare_request(req)
+  File "D:\Python37-32\lib\site-packages\requests\sessions.py", line 462, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "D:\Python37-32\lib\site-packages\requests\models.py", line 313, in prepare
+    self.prepare_url(url, params)
+  File "D:\Python37-32\lib\site-packages\requests\models.py", line 387, in prepare_url
+    raise MissingSchema(error)
+requests.exceptions.MissingSchema: Invalid URL '': No schema supplied. Perhaps you meant http://?
+Invalid URL '': No schema supplied. Perhaps you meant http://?
+Traceback (most recent call last):
+  File ".\run_test.py", line 78, in go_on_run
+    res = self.run_method.run_main(method,url,data,header,params=data)
+  File "D:\PycharmProjects\WechatHelper-master\python3_interface-master\util\runmethod.py", line 25, in run_main
+    res = self.post_main(url,data,header)
+  File "D:\PycharmProjects\WechatHelper-master\python3_interface-master\util\runmethod.py", line 9, in post_main
+    res = requests.post(url=url,data=data,headers=header)
+  File "D:\Python37-32\lib\site-packages\requests\api.py", line 116, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "D:\Python37-32\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Python37-32\lib\site-packages\requests\sessions.py", line 519, in request
+    prep = self.prepare_request(req)
+  File "D:\Python37-32\lib\site-packages\requests\sessions.py", line 462, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "D:\Python37-32\lib\site-packages\requests\models.py", line 313, in prepare
+    self.prepare_url(url, params)
+  File "D:\Python37-32\lib\site-packages\requests\models.py", line 387, in prepare_url
+    raise MissingSchema(error)
+requests.exceptions.MissingSchema: Invalid URL '': No schema supplied. Perhaps you meant http://?
+
+第2条用例报错:
+19-11-18 00:54-ERROR-Invalid URL '': No schema supplied. Perhaps you meant http://?
+Traceback (most recent call last):
+  File ".\run_test.py", line 78, in go_on_run
+    res = self.run_method.run_main(method,url,data,header,params=data)
+  File "D:\PycharmProjects\WechatHelper-master\python3_interface-master\util\runmethod.py", line 27, in run_main
+    res = self.get_main(url,params,header)
+  File "D:\PycharmProjects\WechatHelper-master\python3_interface-master\util\runmethod.py", line 19, in get_main
+    res = requests.get(url=url, params=params)
+  File "D:\Python37-32\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\Python37-32\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Python37-32\lib\site-packages\requests\sessions.py", line 519, in request
+    prep = self.prepare_request(req)
+  File "D:\Python37-32\lib\site-packages\requests\sessions.py", line 462, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "D:\Python37-32\lib\site-packages\requests\models.py", line 313, in prepare
+    self.prepare_url(url, params)
+  File "D:\Python37-32\lib\site-packages\requests\models.py", line 387, in prepare_url
+    raise MissingSchema(error)
+requests.exceptions.MissingSchema: Invalid URL '': No schema supplied. Perhaps you meant http://?
+Invalid URL '': No schema supplied. Perhaps you meant http://?
+Traceback (most recent call last):
+  File ".\run_test.py", line 78, in go_on_run
+    res = self.run_method.run_main(method,url,data,header,params=data)
+  File "D:\PycharmProjects\WechatHelper-master\python3_interface-master\util\runmethod.py", line 27, in run_main
+    res = self.get_main(url,params,header)
+  File "D:\PycharmProjects\WechatHelper-master\python3_interface-master\util\runmethod.py", line 19, in get_main
+    res = requests.get(url=url, params=params)
+  File "D:\Python37-32\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\Python37-32\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Python37-32\lib\site-packages\requests\sessions.py", line 519, in request
+    prep = self.prepare_request(req)
+  File "D:\Python37-32\lib\site-packages\requests\sessions.py", line 462, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "D:\Python37-32\lib\site-packages\requests\models.py", line 313, in prepare
+    self.prepare_url(url, params)
+  File "D:\Python37-32\lib\site-packages\requests\models.py", line 387, in prepare_url
+    raise MissingSchema(error)
+requests.exceptions.MissingSchema: Invalid URL '': No schema supplied. Perhaps you meant http://?
+Invalid URL '': No schema supplied. Perhaps you meant http://?
+Traceback (most recent call last):
+  File ".\run_test.py", line 78, in go_on_run
+    res = self.run_method.run_main(method,url,data,header,params=data)
+  File "D:\PycharmProjects\WechatHelper-master\python3_interface-master\util\runmethod.py", line 27, in run_main
+    res = self.get_main(url,params,header)
+  File "D:\PycharmProjects\WechatHelper-master\python3_interface-master\util\runmethod.py", line 19, in get_main
+    res = requests.get(url=url, params=params)
+  File "D:\Python37-32\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\Python37-32\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Python37-32\lib\site-packages\requests\sessions.py", line 519, in request
+    prep = self.prepare_request(req)
+  File "D:\Python37-32\lib\site-packages\requests\sessions.py", line 462, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "D:\Python37-32\lib\site-packages\requests\models.py", line 313, in prepare
+    self.prepare_url(url, params)
+  File "D:\Python37-32\lib\site-packages\requests\models.py", line 387, in prepare_url
+    raise MissingSchema(error)
+requests.exceptions.MissingSchema: Invalid URL '': No schema supplied. Perhaps you meant http://?
+
+第3条用例报错:
+19-11-18 00:54-ERROR-Invalid URL '': No schema supplied. Perhaps you meant http://?
+Traceback (most recent call last):
+  File ".\run_test.py", line 78, in go_on_run
+    res = self.run_method.run_main(method,url,data,header,params=data)
+  File "D:\PycharmProjects\WechatHelper-master\python3_interface-master\util\runmethod.py", line 25, in run_main
+    res = self.post_main(url,data,header)
+  File "D:\PycharmProjects\WechatHelper-master\python3_interface-master\util\runmethod.py", line 11, in post_main
+    res = requests.post(url=url,data=data)
+  File "D:\Python37-32\lib\site-packages\requests\api.py", line 116, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "D:\Python37-32\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Python37-32\lib\site-packages\requests\sessions.py", line 519, in request
+    prep = self.prepare_request(req)
+  File "D:\Python37-32\lib\site-packages\requests\sessions.py", line 462, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "D:\Python37-32\lib\site-packages\requests\models.py", line 313, in prepare
+    self.prepare_url(url, params)
+  File "D:\Python37-32\lib\site-packages\requests\models.py", line 387, in prepare_url
+    raise MissingSchema(error)
+requests.exceptions.MissingSchema: Invalid URL '': No schema supplied. Perhaps you meant http://?
+Invalid URL '': No schema supplied. Perhaps you meant http://?
+Traceback (most recent call last):
+  File ".\run_test.py", line 78, in go_on_run
+    res = self.run_method.run_main(method,url,data,header,params=data)
+  File "D:\PycharmProjects\WechatHelper-master\python3_interface-master\util\runmethod.py", line 25, in run_main
+    res = self.post_main(url,data,header)
+  File "D:\PycharmProjects\WechatHelper-master\python3_interface-master\util\runmethod.py", line 11, in post_main
+    res = requests.post(url=url,data=data)
+  File "D:\Python37-32\lib\site-packages\requests\api.py", line 116, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "D:\Python37-32\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Python37-32\lib\site-packages\requests\sessions.py", line 519, in request
+    prep = self.prepare_request(req)
+  File "D:\Python37-32\lib\site-packages\requests\sessions.py", line 462, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "D:\Python37-32\lib\site-packages\requests\models.py", line 313, in prepare
+    self.prepare_url(url, params)
+  File "D:\Python37-32\lib\site-packages\requests\models.py", line 387, in prepare_url
+    raise MissingSchema(error)
+requests.exceptions.MissingSchema: Invalid URL '': No schema supplied. Perhaps you meant http://?
+Invalid URL '': No schema supplied. Perhaps you meant http://?
+Traceback (most recent call last):
+  File ".\run_test.py", line 78, in go_on_run
+    res = self.run_method.run_main(method,url,data,header,params=data)
+  File "D:\PycharmProjects\WechatHelper-master\python3_interface-master\util\runmethod.py", line 25, in run_main
+    res = self.post_main(url,data,header)
+  File "D:\PycharmProjects\WechatHelper-master\python3_interface-master\util\runmethod.py", line 11, in post_main
+    res = requests.post(url=url,data=data)
+  File "D:\Python37-32\lib\site-packages\requests\api.py", line 116, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "D:\Python37-32\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Python37-32\lib\site-packages\requests\sessions.py", line 519, in request
+    prep = self.prepare_request(req)
+  File "D:\Python37-32\lib\site-packages\requests\sessions.py", line 462, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "D:\Python37-32\lib\site-packages\requests\models.py", line 313, in prepare
+    self.prepare_url(url, params)
+  File "D:\Python37-32\lib\site-packages\requests\models.py", line 387, in prepare_url
+    raise MissingSchema(error)
+requests.exceptions.MissingSchema: Invalid URL '': No schema supplied. Perhaps you meant http://?
+Invalid URL '': No schema supplied. Perhaps you meant http://?
+Traceback (most recent call last):
+  File ".\run_test.py", line 78, in go_on_run
+    res = self.run_method.run_main(method,url,data,header,params=data)
+  File "D:\PycharmProjects\WechatHelper-master\python3_interface-master\util\runmethod.py", line 25, in run_main
+    res = self.post_main(url,data,header)
+  File "D:\PycharmProjects\WechatHelper-master\python3_interface-master\util\runmethod.py", line 11, in post_main
+    res = requests.post(url=url,data=data)
+  File "D:\Python37-32\lib\site-packages\requests\api.py", line 116, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "D:\Python37-32\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Python37-32\lib\site-packages\requests\sessions.py", line 519, in request
+    prep = self.prepare_request(req)
+  File "D:\Python37-32\lib\site-packages\requests\sessions.py", line 462, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "D:\Python37-32\lib\site-packages\requests\models.py", line 313, in prepare
+    self.prepare_url(url, params)
+  File "D:\Python37-32\lib\site-packages\requests\models.py", line 387, in prepare_url
+    raise MissingSchema(error)
+requests.exceptions.MissingSchema: Invalid URL '': No schema supplied. Perhaps you meant http://?
+
+第4条用例报错:
+19-11-18 00:54-ERROR-Invalid URL '': No schema supplied. Perhaps you meant http://?
+Traceback (most recent call last):
+  File ".\run_test.py", line 59, in go_on_run
+    depend_response_data = self.depend_data.get_value_for_key(i)
+  File "D:\PycharmProjects\WechatHelper-master\python3_interface-master\data\dependent_data.py", line 36, in get_value_for_key
+    response_data = self.run_dependent()
+  File "D:\PycharmProjects\WechatHelper-master\python3_interface-master\data\dependent_data.py", line 28, in run_dependent
+    res = self.method.run_main(method,url,request_data,header,params=request_data)
+  File "D:\PycharmProjects\WechatHelper-master\python3_interface-master\util\runmethod.py", line 25, in run_main
+    res = self.post_main(url,data,header)
+  File "D:\PycharmProjects\WechatHelper-master\python3_interface-master\util\runmethod.py", line 11, in post_main
+    res = requests.post(url=url,data=data)
+  File "D:\Python37-32\lib\site-packages\requests\api.py", line 116, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "D:\Python37-32\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Python37-32\lib\site-packages\requests\sessions.py", line 519, in request
+    prep = self.prepare_request(req)
+  File "D:\Python37-32\lib\site-packages\requests\sessions.py", line 462, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "D:\Python37-32\lib\site-packages\requests\models.py", line 313, in prepare
+    self.prepare_url(url, params)
+  File "D:\Python37-32\lib\site-packages\requests\models.py", line 387, in prepare_url
+    raise MissingSchema(error)
+requests.exceptions.MissingSchema: Invalid URL '': No schema supplied. Perhaps you meant http://?
+Invalid URL '': No schema supplied. Perhaps you meant http://?
+Traceback (most recent call last):
+  File ".\run_test.py", line 59, in go_on_run
+    depend_response_data = self.depend_data.get_value_for_key(i)
+  File "D:\PycharmProjects\WechatHelper-master\python3_interface-master\data\dependent_data.py", line 36, in get_value_for_key
+    response_data = self.run_dependent()
+  File "D:\PycharmProjects\WechatHelper-master\python3_interface-master\data\dependent_data.py", line 28, in run_dependent
+    res = self.method.run_main(method,url,request_data,header,params=request_data)
+  File "D:\PycharmProjects\WechatHelper-master\python3_interface-master\util\runmethod.py", line 25, in run_main
+    res = self.post_main(url,data,header)
+  File "D:\PycharmProjects\WechatHelper-master\python3_interface-master\util\runmethod.py", line 11, in post_main
+    res = requests.post(url=url,data=data)
+  File "D:\Python37-32\lib\site-packages\requests\api.py", line 116, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "D:\Python37-32\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Python37-32\lib\site-packages\requests\sessions.py", line 519, in request
+    prep = self.prepare_request(req)
+  File "D:\Python37-32\lib\site-packages\requests\sessions.py", line 462, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "D:\Python37-32\lib\site-packages\requests\models.py", line 313, in prepare
+    self.prepare_url(url, params)
+  File "D:\Python37-32\lib\site-packages\requests\models.py", line 387, in prepare_url
+    raise MissingSchema(error)
+requests.exceptions.MissingSchema: Invalid URL '': No schema supplied. Perhaps you meant http://?
+Invalid URL '': No schema supplied. Perhaps you meant http://?
+Traceback (most recent call last):
+  File ".\run_test.py", line 59, in go_on_run
+    depend_response_data = self.depend_data.get_value_for_key(i)
+  File "D:\PycharmProjects\WechatHelper-master\python3_interface-master\data\dependent_data.py", line 36, in get_value_for_key
+    response_data = self.run_dependent()
+  File "D:\PycharmProjects\WechatHelper-master\python3_interface-master\data\dependent_data.py", line 28, in run_dependent
+    res = self.method.run_main(method,url,request_data,header,params=request_data)
+  File "D:\PycharmProjects\WechatHelper-master\python3_interface-master\util\runmethod.py", line 25, in run_main
+    res = self.post_main(url,data,header)
+  File "D:\PycharmProjects\WechatHelper-master\python3_interface-master\util\runmethod.py", line 11, in post_main
+    res = requests.post(url=url,data=data)
+  File "D:\Python37-32\lib\site-packages\requests\api.py", line 116, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "D:\Python37-32\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Python37-32\lib\site-packages\requests\sessions.py", line 519, in request
+    prep = self.prepare_request(req)
+  File "D:\Python37-32\lib\site-packages\requests\sessions.py", line 462, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "D:\Python37-32\lib\site-packages\requests\models.py", line 313, in prepare
+    self.prepare_url(url, params)
+  File "D:\Python37-32\lib\site-packages\requests\models.py", line 387, in prepare_url
+    raise MissingSchema(error)
+requests.exceptions.MissingSchema: Invalid URL '': No schema supplied. Perhaps you meant http://?
+Invalid URL '': No schema supplied. Perhaps you meant http://?
+Traceback (most recent call last):
+  File ".\run_test.py", line 59, in go_on_run
+    depend_response_data = self.depend_data.get_value_for_key(i)
+  File "D:\PycharmProjects\WechatHelper-master\python3_interface-master\data\dependent_data.py", line 36, in get_value_for_key
+    response_data = self.run_dependent()
+  File "D:\PycharmProjects\WechatHelper-master\python3_interface-master\data\dependent_data.py", line 28, in run_dependent
+    res = self.method.run_main(method,url,request_data,header,params=request_data)
+  File "D:\PycharmProjects\WechatHelper-master\python3_interface-master\util\runmethod.py", line 25, in run_main
+    res = self.post_main(url,data,header)
+  File "D:\PycharmProjects\WechatHelper-master\python3_interface-master\util\runmethod.py", line 11, in post_main
+    res = requests.post(url=url,data=data)
+  File "D:\Python37-32\lib\site-packages\requests\api.py", line 116, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "D:\Python37-32\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Python37-32\lib\site-packages\requests\sessions.py", line 519, in request
+    prep = self.prepare_request(req)
+  File "D:\Python37-32\lib\site-packages\requests\sessions.py", line 462, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "D:\Python37-32\lib\site-packages\requests\models.py", line 313, in prepare
+    self.prepare_url(url, params)
+  File "D:\Python37-32\lib\site-packages\requests\models.py", line 387, in prepare_url
+    raise MissingSchema(error)
+requests.exceptions.MissingSchema: Invalid URL '': No schema supplied. Perhaps you meant http://?
+Invalid URL '': No schema supplied. Perhaps you meant http://?
+Traceback (most recent call last):
+  File ".\run_test.py", line 59, in go_on_run
+    depend_response_data = self.depend_data.get_value_for_key(i)
+  File "D:\PycharmProjects\WechatHelper-master\python3_interface-master\data\dependent_data.py", line 36, in get_value_for_key
+    response_data = self.run_dependent()
+  File "D:\PycharmProjects\WechatHelper-master\python3_interface-master\data\dependent_data.py", line 28, in run_dependent
+    res = self.method.run_main(method,url,request_data,header,params=request_data)
+  File "D:\PycharmProjects\WechatHelper-master\python3_interface-master\util\runmethod.py", line 25, in run_main
+    res = self.post_main(url,data,header)
+  File "D:\PycharmProjects\WechatHelper-master\python3_interface-master\util\runmethod.py", line 11, in post_main
+    res = requests.post(url=url,data=data)
+  File "D:\Python37-32\lib\site-packages\requests\api.py", line 116, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "D:\Python37-32\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Python37-32\lib\site-packages\requests\sessions.py", line 519, in request
+    prep = self.prepare_request(req)
+  File "D:\Python37-32\lib\site-packages\requests\sessions.py", line 462, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "D:\Python37-32\lib\site-packages\requests\models.py", line 313, in prepare
+    self.prepare_url(url, params)
+  File "D:\Python37-32\lib\site-packages\requests\models.py", line 387, in prepare_url
+    raise MissingSchema(error)
+requests.exceptions.MissingSchema: Invalid URL '': No schema supplied. Perhaps you meant http://?
+
+第5条用例报错:
+19-11-18 00:54-ERROR-string indices must be integers
+Traceback (most recent call last):
+  File ".\run_test.py", line 69, in go_on_run
+    op_header.write_cookie()
+  File "D:\PycharmProjects\WechatHelper-master\python3_interface-master\util\operation_header.py", line 30, in write_cookie
+    cookie = requests.utils.dict_from_cookiejar(self.get_cookie())
+  File "D:\PycharmProjects\WechatHelper-master\python3_interface-master\util\operation_header.py", line 25, in get_cookie
+    url = self.get_response_url()+"&callback=jQuery21008240514814031887_1508666806688&_=1508666806689"
+  File "D:\PycharmProjects\WechatHelper-master\python3_interface-master\util\operation_header.py", line 18, in get_response_url
+    url = self.response['data']['url'][0]
+TypeError: string indices must be integers
+string indices must be integers
+Traceback (most recent call last):
+  File ".\run_test.py", line 69, in go_on_run
+    op_header.write_cookie()
+  File "D:\PycharmProjects\WechatHelper-master\python3_interface-master\util\operation_header.py", line 30, in write_cookie
+    cookie = requests.utils.dict_from_cookiejar(self.get_cookie())
+  File "D:\PycharmProjects\WechatHelper-master\python3_interface-master\util\operation_header.py", line 25, in get_cookie
+    url = self.get_response_url()+"&callback=jQuery21008240514814031887_1508666806688&_=1508666806689"
+  File "D:\PycharmProjects\WechatHelper-master\python3_interface-master\util\operation_header.py", line 18, in get_response_url
+    url = self.response['data']['url'][0]
+TypeError: string indices must be integers
+string indices must be integers
+Traceback (most recent call last):
+  File ".\run_test.py", line 69, in go_on_run
+    op_header.write_cookie()
+  File "D:\PycharmProjects\WechatHelper-master\python3_interface-master\util\operation_header.py", line 30, in write_cookie
+    cookie = requests.utils.dict_from_cookiejar(self.get_cookie())
+  File "D:\PycharmProjects\WechatHelper-master\python3_interface-master\util\operation_header.py", line 25, in get_cookie
+    url = self.get_response_url()+"&callback=jQuery21008240514814031887_1508666806688&_=1508666806689"
+  File "D:\PycharmProjects\WechatHelper-master\python3_interface-master\util\operation_header.py", line 18, in get_response_url
+    url = self.response['data']['url'][0]
+TypeError: string indices must be integers
+string indices must be integers
+Traceback (most recent call last):
+  File ".\run_test.py", line 69, in go_on_run
+    op_header.write_cookie()
+  File "D:\PycharmProjects\WechatHelper-master\python3_interface-master\util\operation_header.py", line 30, in write_cookie
+    cookie = requests.utils.dict_from_cookiejar(self.get_cookie())
+  File "D:\PycharmProjects\WechatHelper-master\python3_interface-master\util\operation_header.py", line 25, in get_cookie
+    url = self.get_response_url()+"&callback=jQuery21008240514814031887_1508666806688&_=1508666806689"
+  File "D:\PycharmProjects\WechatHelper-master\python3_interface-master\util\operation_header.py", line 18, in get_response_url
+    url = self.response['data']['url'][0]
+TypeError: string indices must be integers
+string indices must be integers
+Traceback (most recent call last):
+  File ".\run_test.py", line 69, in go_on_run
+    op_header.write_cookie()
+  File "D:\PycharmProjects\WechatHelper-master\python3_interface-master\util\operation_header.py", line 30, in write_cookie
+    cookie = requests.utils.dict_from_cookiejar(self.get_cookie())
+  File "D:\PycharmProjects\WechatHelper-master\python3_interface-master\util\operation_header.py", line 25, in get_cookie
+    url = self.get_response_url()+"&callback=jQuery21008240514814031887_1508666806688&_=1508666806689"
+  File "D:\PycharmProjects\WechatHelper-master\python3_interface-master\util\operation_header.py", line 18, in get_response_url
+    url = self.response['data']['url'][0]
+TypeError: string indices must be integers
+string indices must be integers
+Traceback (most recent call last):
+  File ".\run_test.py", line 69, in go_on_run
+    op_header.write_cookie()
+  File "D:\PycharmProjects\WechatHelper-master\python3_interface-master\util\operation_header.py", line 30, in write_cookie
+    cookie = requests.utils.dict_from_cookiejar(self.get_cookie())
+  File "D:\PycharmProjects\WechatHelper-master\python3_interface-master\util\operation_header.py", line 25, in get_cookie
+    url = self.get_response_url()+"&callback=jQuery21008240514814031887_1508666806688&_=1508666806689"
+  File "D:\PycharmProjects\WechatHelper-master\python3_interface-master\util\operation_header.py", line 18, in get_response_url
+    url = self.response['data']['url'][0]
+TypeError: string indices must be integers
+
+第6条用例报错:
+19-11-18 00:54-ERROR-Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\run_test.py", line 72, in go_on_run
+    op_json = OperationJson('../dataconfig/cookie.json')
+  File "D:\PycharmProjects\WechatHelper-master\python3_interface-master\util\operation_json.py", line 8, in __init__
+    self.data = self.read_data()
+  File "D:\PycharmProjects\WechatHelper-master\python3_interface-master\util\operation_json.py", line 13, in read_data
+    data = json.load(fp)
+  File "D:\Python37-32\lib\json\__init__.py", line 296, in load
+    parse_constant=parse_constant, object_pairs_hook=object_pairs_hook, **kw)
+  File "D:\Python37-32\lib\json\__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "D:\Python37-32\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\Python37-32\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\run_test.py", line 72, in go_on_run
+    op_json = OperationJson('../dataconfig/cookie.json')
+  File "D:\PycharmProjects\WechatHelper-master\python3_interface-master\util\operation_json.py", line 8, in __init__
+    self.data = self.read_data()
+  File "D:\PycharmProjects\WechatHelper-master\python3_interface-master\util\operation_json.py", line 13, in read_data
+    data = json.load(fp)
+  File "D:\Python37-32\lib\json\__init__.py", line 296, in load
+    parse_constant=parse_constant, object_pairs_hook=object_pairs_hook, **kw)
+  File "D:\Python37-32\lib\json\__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "D:\Python37-32\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\Python37-32\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\run_test.py", line 72, in go_on_run
+    op_json = OperationJson('../dataconfig/cookie.json')
+  File "D:\PycharmProjects\WechatHelper-master\python3_interface-master\util\operation_json.py", line 8, in __init__
+    self.data = self.read_data()
+  File "D:\PycharmProjects\WechatHelper-master\python3_interface-master\util\operation_json.py", line 13, in read_data
+    data = json.load(fp)
+  File "D:\Python37-32\lib\json\__init__.py", line 296, in load
+    parse_constant=parse_constant, object_pairs_hook=object_pairs_hook, **kw)
+  File "D:\Python37-32\lib\json\__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "D:\Python37-32\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\Python37-32\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\run_test.py", line 72, in go_on_run
+    op_json = OperationJson('../dataconfig/cookie.json')
+  File "D:\PycharmProjects\WechatHelper-master\python3_interface-master\util\operation_json.py", line 8, in __init__
+    self.data = self.read_data()
+  File "D:\PycharmProjects\WechatHelper-master\python3_interface-master\util\operation_json.py", line 13, in read_data
+    data = json.load(fp)
+  File "D:\Python37-32\lib\json\__init__.py", line 296, in load
+    parse_constant=parse_constant, object_pairs_hook=object_pairs_hook, **kw)
+  File "D:\Python37-32\lib\json\__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "D:\Python37-32\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\Python37-32\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\run_test.py", line 72, in go_on_run
+    op_json = OperationJson('../dataconfig/cookie.json')
+  File "D:\PycharmProjects\WechatHelper-master\python3_interface-master\util\operation_json.py", line 8, in __init__
+    self.data = self.read_data()
+  File "D:\PycharmProjects\WechatHelper-master\python3_interface-master\util\operation_json.py", line 13, in read_data
+    data = json.load(fp)
+  File "D:\Python37-32\lib\json\__init__.py", line 296, in load
+    parse_constant=parse_constant, object_pairs_hook=object_pairs_hook, **kw)
+  File "D:\Python37-32\lib\json\__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "D:\Python37-32\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\Python37-32\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\run_test.py", line 72, in go_on_run
+    op_json = OperationJson('../dataconfig/cookie.json')
+  File "D:\PycharmProjects\WechatHelper-master\python3_interface-master\util\operation_json.py", line 8, in __init__
+    self.data = self.read_data()
+  File "D:\PycharmProjects\WechatHelper-master\python3_interface-master\util\operation_json.py", line 13, in read_data
+    data = json.load(fp)
+  File "D:\Python37-32\lib\json\__init__.py", line 296, in load
+    parse_constant=parse_constant, object_pairs_hook=object_pairs_hook, **kw)
+  File "D:\Python37-32\lib\json\__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "D:\Python37-32\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\Python37-32\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\run_test.py", line 72, in go_on_run
+    op_json = OperationJson('../dataconfig/cookie.json')
+  File "D:\PycharmProjects\WechatHelper-master\python3_interface-master\util\operation_json.py", line 8, in __init__
+    self.data = self.read_data()
+  File "D:\PycharmProjects\WechatHelper-master\python3_interface-master\util\operation_json.py", line 13, in read_data
+    data = json.load(fp)
+  File "D:\Python37-32\lib\json\__init__.py", line 296, in load
+    parse_constant=parse_constant, object_pairs_hook=object_pairs_hook, **kw)
+  File "D:\Python37-32\lib\json\__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "D:\Python37-32\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\Python37-32\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)

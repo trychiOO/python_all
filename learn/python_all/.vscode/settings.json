@@ -1,0 +1,9 @@
+{
+    "python.pythonPath": "D:\\Python37-32\\python.exe",
+    "python.testing.nosetestArgs": [
+        "python_unittest_interface-master"
+    ],
+    "python.testing.pytestEnabled": false,
+    "python.testing.unittestEnabled": false,
+    "python.testing.nosetestsEnabled": true
+}
