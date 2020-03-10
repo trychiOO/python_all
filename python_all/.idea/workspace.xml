@@ -4,8 +4,10 @@
     <bookmark url="file://$PROJECT_DIR$/porint/Charepter/back.py" line="0" mnemonic="1" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca0e5c95-a40f-4ad8-a8f7-672ffba29efd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/skill/trantlate.py" afterDir="false" />
+    <list default="true" id="ca0e5c95-a40f-4ad8-a8f7-672ffba29efd" name="Default Changelist" comment="first">
+      <change afterPath="$PROJECT_DIR$/skill/api_youdao.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yapi" beforeDir="false" afterPath="$PROJECT_DIR$/../yapi" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,18 +50,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ittsp_interface_test/public/Log.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Demo_ut/exe/Aboutemial.py">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -72,7 +62,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/selenium_demo/D2/s_Index.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
+            <state relative-caret-position="962">
               <caret line="43" selection-start-line="43" selection-end-line="43" />
               <folding>
                 <element signature="e#14#44#0" expanded="true" />
@@ -84,10 +74,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/skill/trantlate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+            <state relative-caret-position="26">
+              <caret line="1" column="14" lean-forward="true" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
               <folding>
                 <element signature="e#77#95#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/skill/api_youdao.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="546">
+              <caret line="65" column="12" selection-start-line="65" selection-start-column="12" selection-end-line="65" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -183,7 +185,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/porint/Charepter/Ding_massage.py" />
         <option value="$PROJECT_DIR$/python_unittest_interface-master/unit_test/demo.py" />
         <option value="$PROJECT_DIR$/Demo_ut/exe/Aboutunittest.py" />
         <option value="$PROJECT_DIR$/Demo_ut/exe/Aboutemial.py" />
@@ -234,6 +235,7 @@
         <option value="$PROJECT_DIR$/selenium_demo/D1/AB_p.py" />
         <option value="$PROJECT_DIR$/selenium_demo/D2/s_Index.py" />
         <option value="$PROJECT_DIR$/skill/trantlate.py" />
+        <option value="$PROJECT_DIR$/skill/api_youdao.py" />
       </list>
     </option>
   </component>
@@ -249,18 +251,23 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="WechatHelper-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WechatHelper-master" type="462c0819:PsiDirectoryNode" />
+              <item name="python_all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_all" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python_all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_all" type="462c0819:PsiDirectoryNode" />
+              <item name="skill" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -302,7 +309,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.trantlate">
+  <component name="RunManager" selected="Python.api_youdao">
     <configuration name="AB_p" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="WechatHelper-master" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -345,7 +352,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="file_read" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="api_youdao" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="WechatHelper-master" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -353,11 +360,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/selenium_demo/D2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/skill" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/selenium_demo/D2/file_read.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/skill/api_youdao.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -410,11 +417,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.api_youdao" />
         <item itemvalue="Python.trantlate" />
         <item itemvalue="Python.s_Index" />
         <item itemvalue="Python.AB_p" />
         <item itemvalue="Python.L1" />
-        <item itemvalue="Python.file_read" />
       </list>
     </recent_temporary>
   </component>
@@ -464,15 +471,14 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="1" sideWeight="0.5031645" side_tool="true" type="FLOATING" weight="0.18071654" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.49683544" visible="true" weight="0.13177083" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.49683544" visible="true" weight="0.13177083" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32944915" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49789253" visible="true" weight="0.20338982" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49789253" visible="true" weight="0.20338982" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3983051" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -486,6 +492,10 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="leetcode" order="3" side_tool="true" />
     </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first" />
+    <option name="LAST_COMMIT_MESSAGE" value="first" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -524,9 +534,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cp_interface_auto/public/RW_data_xls.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/cp_interface_auto/public/Get_Http.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -795,8 +802,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ittsp_interface_test/public/Log.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Demo_ut/exe/Aboutunittest.py">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium_demo/D2/s_Index.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="962">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="e#14#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Demo_ut/exe/ad_co.py">
       <provider selected="true" editor-type-id="text-editor" />
@@ -823,38 +850,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/selenium_demo/D2/s_Index.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-          <folding>
-            <element signature="e#14#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Demo_ut/exe/Aboutemial.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/skill/trantlate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        <state relative-caret-position="26">
+          <caret line="1" column="14" lean-forward="true" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
           <folding>
             <element signature="e#77#95#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ittsp_interface_test/public/Log.py">
+    <entry file="file://$PROJECT_DIR$/skill/api_youdao.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+        <state relative-caret-position="546">
+          <caret line="65" column="12" selection-start-line="65" selection-start-column="12" selection-end-line="65" selection-end-column="12" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Demo_ut/exe/Aboutemial.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
