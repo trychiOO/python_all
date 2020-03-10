@@ -23,7 +23,7 @@ time.sleep(2)
 test_url= 'https://azero.soundai.com/ask/customize/simulation/5e5c891778663200082e811d'
 driver.get(test_url)
 
-read_f = xlrd.open_workbook("D:\PycharmProjects\WechatHelper-master\selenium_demo\D2\query.xlsx")
+read_f = xlrd.open_workbook("D:\PycharmProjects\python_all\selenium_demo\D2\query.xlsx")
 sheet = read_f.sheet_by_name
 sheet = read_f.sheet_by_name('Sheet4')
 col_datas = sheet.col_values(0,1)
@@ -33,6 +33,6 @@ for col_data in col_datas:
     #截图
     time.sleep(3)
     name = time.strftime("%Y-%m-%d-%H_%M_%S", time.localtime(time.time()))
-    driver.save_screenshot('D:\\PycharmProjects\\WechatHelper-master\\selenium_demo\\D1\\sheet4\\'+name+'.png')
+    driver.save_screenshot('D:\\PycharmProjects\\python_all\\selenium_demo\\D1\\sheet4\\'+name+'.png')
     time.sleep(3)
 

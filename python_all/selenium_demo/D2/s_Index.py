@@ -28,7 +28,7 @@ time.sleep(2)
 # driver.add_cookie({"name":"testname_1234567890"},{"value":"testvalue_1234567890"})
 test_url= 'https://azero.soundai.com/ask/customize/simulation/5e5df82a35631e0009d58ce6'
 driver.get(test_url)
-read_f = xlrd.open_workbook("D:\PycharmProjects\WechatHelper-master\selenium_demo\D2\query.xlsx")
+read_f = xlrd.open_workbook("D:\PycharmProjects\python_all\selenium_demo\D2\query.xlsx")
 # print(read_f.sheet_names())
 sheet = read_f.sheet_by_name
 sheet = read_f.sheet_by_name('Sheet1')
@@ -39,7 +39,7 @@ for col_data in col_datas:
     #截图
     time.sleep(3)
     name = time.strftime("%Y-%m-%d-%H_%M_%S", time.localtime(time.time()))
-    driver.save_screenshot('D:\\PycharmProjects\\WechatHelper-master\\selenium_demo\\D2\\img\\sheet4\\'+name+'.png')
+    driver.save_screenshot('D:\PycharmProjects\python_all\selenium_demo\D2\img\sheet4'+name+'.png')
     time.sleep(3)
 
 # driver.find_element_by_id("phone_number").send_keys("17853487243")

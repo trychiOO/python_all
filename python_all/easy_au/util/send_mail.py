@@ -27,7 +27,7 @@ class SendEmail:
         # 构造附件（附件为HTML格式的网页）
         # file ='D:\PycharmProjects\WechatHelper-master\easy_au\report\report.html'
         time = datetime.date.today()
-        att = MIMEText(open(r'D:\PycharmProjects\WechatHelper-master\easy_au\report\report.html', 'rb').read(), 'html', 'utf-8')
+        att = MIMEText(open(r'D:\PycharmProjects\python_all\easy_au\report\report.html', 'rb').read(), 'html', 'utf-8')
         att["Content-Type"] = 'application/octet-stream'
         att["Content-Disposition"] = 'attachment; filename="%s_Result.html"'% time
         message.attach(att)
